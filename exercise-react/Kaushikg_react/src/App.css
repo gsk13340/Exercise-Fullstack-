@@ -1,0 +1,76 @@
+/* App.css or your custom CSS file */
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  margin: 1;
+  padding: 1;
+}
+
+input, button {
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ced3dd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(20, 6, 6);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.collection-container {
+  text-align: left;
+  border: 6px solid black;
+  padding: 32px;
+  background-color: lightcoral;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr {
+  text-align: left;
+}
+
+/* Add form element font-family here */
+.form-container {
+  font-family: inherit; /* Inherit the font-family from the body */
+}
+
+/* Apply this class to form elements within the form container */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container button {
+  font-family: inherit; /* Inherit the font-family from the form container */
+}
